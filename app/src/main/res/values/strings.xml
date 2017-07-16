@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FeedsApp</string>
+    <string name="HeadLineTV">HeadLine</string>
+    <string name="DateTv">DateTv</string>
+    <string name="keywordstv">KeywordsTv</string>
+    <string name="LinkTv">LinkTv</string>
+    <string name="appname">CricketBuzz Feeds</string>
+    <string name="appnamefeedList">Top Headlines</string>
+    <string name="splashtv">Loading....</string>
+</resources>

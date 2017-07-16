@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="10dp">
+
+    <TextView
+        android:id="@+id/HeadLine_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/HeadLineTV"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#040000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Date_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/HeadLine_textView"
+        android:layout_marginRight="3dp"
+        android:text="@string/DateTv"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#f02525" />
+
+    <TextView
+        android:id="@+id/Keywords_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/Date_textView"
+        android:text="@string/keywordstv"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#383636" />
+
+    <TextView
+        android:id="@+id/Link_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/Keywords_textView"
+        android:autoLink="web"
+        android:text="@string/LinkTv"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0B0080" />
+
+
+</RelativeLayout>
